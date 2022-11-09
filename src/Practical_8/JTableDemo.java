@@ -21,5 +21,6 @@ public class JTableDemo extends JFrame {
         JTableDemo t1 = new JTableDemo();
         t1.setSize(500,500);
         t1.setVisible(true);
+        t1.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }

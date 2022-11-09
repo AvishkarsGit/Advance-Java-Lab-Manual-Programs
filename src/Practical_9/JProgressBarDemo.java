@@ -9,7 +9,6 @@ public class JProgressBarDemo extends JFrame {
     JProgressBarDemo(){
         setLayout(new FlowLayout());
         jpb=new JProgressBar(0,2000);
-//        jpb.setValue(500);
         jpb.setStringPainted(true);
         add(jpb);
     }
